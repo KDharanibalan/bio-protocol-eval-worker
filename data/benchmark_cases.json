@@ -1,0 +1,26 @@
+[
+  {
+    "case_id": "PROT-001",
+    "file": "protocol_ev_compliant.md",
+    "expected_violated_rules": [],
+    "expected_requires_human_review": false
+  },
+  {
+    "case_id": "PROT-002",
+    "file": "protocol_ev_missing_controls.md",
+    "expected_violated_rules": ["POL-CTRL-003", "POL-EVQC-004"],
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "PROT-003",
+    "file": "protocol_dex_safety_gap.md",
+    "expected_violated_rules": ["POL-BSL2-001", "POL-CHEM-002"],
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "PROT-004",
+    "file": "protocol_coa_incomplete.md",
+    "expected_violated_rules": ["POL-COA-005"],
+    "expected_requires_human_review": true
+  }
+]

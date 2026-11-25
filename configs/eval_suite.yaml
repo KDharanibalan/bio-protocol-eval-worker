@@ -1,0 +1,14 @@
+project:
+  name: bio-protocol-eval-worker
+  version: 0.1.0
+
+worker:
+  escalation_confidence_threshold: 0.80
+  critical_severity_always_escalate: true
+
+release_gate:
+  min_precision: 0.85
+  min_recall: 0.85
+  min_f1: 0.85
+  max_false_positive_rate: 0.15
+  max_avg_latency_ms: 100.0
